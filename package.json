@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bikilone/portfolio.git"
+  },
+  "author": "Milos Birovljevic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bikilone/portfolio/issues"
+  },
+  "homepage": "https://github.com/bikilone/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
