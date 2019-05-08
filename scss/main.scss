@@ -22,13 +22,12 @@ h3 {
   margin: 0;
   font-weight: 400;
   &.lg-heading {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   &.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    background: rgba(lighten($color: $primary-color, $amount: 2), 0.5);
+    padding: 0.2rem;
   }
 }
 
