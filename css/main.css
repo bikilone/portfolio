@@ -24,7 +24,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -36,21 +35,25 @@
     float: left;
     width: 50%;
     height: 100vh;
-    overflow: hidden; }
+    overflow: hidden;
+    visibility: hidden; }
   .menu-nav {
     margin: 0;
     padding: 0;
     background: #373737;
     list-style: none;
     transform: translate3d(0, -100%, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-out;
+    background: rgba(55, 55, 55, 0.9); }
     .menu-nav.show {
-      transform: translate3d(0, 0, 0); }
+      transform: translate3d(0, 0, 0);
+      visibility: visible; }
   .menu-branding {
-    background: #444;
+    background: rgba(55, 55, 55, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
+      visibility: visible;
       transform: translate3d(0, 0, 0); }
   .menu .portrait {
     width: 250px;
