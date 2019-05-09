@@ -57,13 +57,17 @@
     height: 100vh;
 
     overflow: hidden;
+
+    //
+    position: relative;
+    top: -100%;
   }
   &-nav {
     margin: 0;
     padding: 0;
     background: darken($primary-color, 5);
     list-style: none;
-    transform: translate3d(0, -100%, 0);
+    // transform: translate3d(0, -100%, 0);
 
     @include easeOut;
     &.show {
