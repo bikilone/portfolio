@@ -102,6 +102,21 @@ main {
     background: lighten($primary-color, $amount: 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+    h3,
+    h4,
+    p,
+    h6 {
+      text-align: center;
+    }
+  }
+  .skills {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    ul {
+      list-style-type: none;
+      padding-left: 5px;
+    }
   }
 }
 
